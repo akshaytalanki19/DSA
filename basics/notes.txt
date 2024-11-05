@@ -1,0 +1,62 @@
+Data Types In Java 
+  
+   Primitive  = {byte, short, char, boolean, long, int, float, double}
+
+   byte = 1byte
+   short = 2 bytes
+   char = 2 bytes             1 byte = 8 bits
+   boolean = 1 byte
+   int = 4 bytes
+   long=8 bytes
+   float = 4 bytes
+   double = 8 bytes
+
+   Non-Primitive ={String, Array,class, Object, Interface}
+
+
+Comments in Java:
+       
+        // -> indicate commet in a line after this line
+        /*
+         *  this is the commet that considers every line in btw them will be considered as comments
+         */
+
+Input in Java:
+  
+        Scanner objectName = new Scanner(System.in);
+
+        int -> nextInt
+        String -> next() // for single word
+               -> nextLine() // for multiple lines or words
+               -> nextLine().charAt(0) // for scanning single charecter
+
+Type Conversion:
+  
+       -> we can only convert data type of similar type (type compatible)
+          ex:  int -> float (ok)
+               int -> boolean (not ok)
+       -> desitination size > source size(type)
+          ex:  int -> long (ok)
+               long -> int (not ok)
+        -> order of sizes:  byte - short - float - long - double
+
+Type Casting:
+  
+       -> by forcing changing the data type with data loss
+          ex:  float a= 12.5f;
+                int b = (int)a ;
+                // b=12
+Type promotion: 
+     
+       -> java automatically promotes each byte,short, or char operand to int when evaluating an expression 
+          ex: 
+                 byte a= 1
+                 short b= 2
+                 char ch='a'
+                 int exp= a+b+ch // 1+2+97=100
+        -> If one operand is long, float or double then whole expression is promoted to long, float, or double respectively
+
+
+How Code is running
+       
+          source code .java (file) -> compiler -> byte code (.class) -> jvm -> native code (based on the system)
