@@ -60,3 +60,12 @@ Type promotion:
 How Code is running
        
           source code .java (file) -> compiler -> byte code (.class) -> jvm -> native code (based on the system)
+
+Operation in java:
+         Arthemetic Operations(binary,Unary)
+             Binary:  +,-,*,/,% (need to variables or values)
+             Unary:  ++,-- (require only one variable)
+         Realational Operation
+         Logical Operations
+         Bitwise Operation
+         Assignment Operations
