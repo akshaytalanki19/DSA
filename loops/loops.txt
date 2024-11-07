@@ -1,0 +1,30 @@
+Loops are used to intarate through an logic until the given condition is satified
+It is used to reduce the number of times to write the same code
+
+we have 3 loops:
+        For loops
+        while loops
+        do-while loops
+
+Syntax:
+    1 for loop:
+       for(intialization; condition; increment/decrement){
+        // logic
+        //logic 
+       }
+       
+    2 while loop:
+       intialization
+       while(condition){
+          // logic
+          //logic 
+        increment/decrement
+       }
+
+    3 do-while
+       intialization
+       do{
+         // logic
+        //logic 
+        increment/decrement
+       }while(condition)
