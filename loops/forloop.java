@@ -1,6 +1,8 @@
-import java.util.Scanner;
+package loops;
 
-public class forloop{
+import java.util.*;
+
+public class forLoop {
     public static void main(String[] args){
         int sum=0;
         Scanner sc=new Scanner(System.in);
