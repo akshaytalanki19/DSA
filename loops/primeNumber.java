@@ -24,6 +24,6 @@ public class primeNumber {
             System.out.println("It is not an prime number");
         }
         }
-
+       sc.close();
     }
 }
