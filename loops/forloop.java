@@ -12,5 +12,6 @@ public class forLoop {
             sum+=i;
         }
         System.out.println("Sum of n numbers: "+""+sum);
+        sc.close();
     }
 }

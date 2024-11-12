@@ -25,6 +25,7 @@ public class binaryPattern {
                 
             }
             System.out.println();
+            sc.close();
         }
     }
 }

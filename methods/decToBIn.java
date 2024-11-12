@@ -16,5 +16,6 @@ public class decToBIn {
             n=n/2;
         }
         System.out.println(bin);
+       
     }
 }

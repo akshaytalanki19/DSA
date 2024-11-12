@@ -11,5 +11,6 @@ public class numbre {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

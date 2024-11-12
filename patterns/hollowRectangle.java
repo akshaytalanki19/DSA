@@ -30,6 +30,7 @@ public class hollowRectangle {
                 }
                 System.out.println();
             }
+            sc.close();
             
         }
     }

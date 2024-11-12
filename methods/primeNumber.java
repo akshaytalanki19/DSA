@@ -12,6 +12,7 @@ public class primeNumber {
             System.out.print(i+" ");
 
         }
+        sc.close();
     }
     public static boolean isPrime(int n)
     {

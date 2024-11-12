@@ -1,6 +1,6 @@
 package methods;
 
-import patterns.start;
+
 
 public class binToDec {
     public static void main(String[] args) {

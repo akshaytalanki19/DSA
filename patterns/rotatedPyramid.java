@@ -17,5 +17,6 @@ public class rotatedPyramid {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

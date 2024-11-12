@@ -11,6 +11,7 @@ public class binomialCoeffient {
         int frac_r=factorial(r);
         int frac_n_r=factorial(n-r);
         System.out.println(frac_n/(frac_r*frac_n_r));
+        sc.close();
     }
     public static int factorial(int n)
     {

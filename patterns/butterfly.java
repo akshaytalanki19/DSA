@@ -52,7 +52,7 @@ public class butterfly {
             }
             System.out.println();
         }
- 
+        sc.close();
     }
     }
 }

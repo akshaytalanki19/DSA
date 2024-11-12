@@ -20,5 +20,6 @@ public class start {
             }
             System.out.println();
         }
+        sc.close();
     }
 }
