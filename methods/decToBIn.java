@@ -2,9 +2,9 @@ package methods;
 
 public class decToBIn {
     public static void main(String[] args) {
-        decToBIn(5);
+        decToBin(5);
     }
-    public static void decToBIn(int n)
+    public static void decToBin(int n)
     {
         int pow=0;
         int bin=0;
