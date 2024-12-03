@@ -6,6 +6,7 @@ public class trappingRainWater {
     int a[]=new int[7];
     for(int i=0;i<7;i++)
     a[i]=sc.nextInt();
+    sc.close();
     System.out.println(trappingRain(a));
     }
     public static int trappingRain(int a[]){
