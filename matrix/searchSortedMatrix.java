@@ -12,6 +12,7 @@ public class searchSortedMatrix {
             }
         }
         search(mat,33);
+        sc.close();
     }
 
      /*
@@ -22,7 +23,7 @@ public class searchSortedMatrix {
        key > cellvalue
           move bottom
       */
-
+         // staircase search
       /*
       * Algorithm for searching in a sorted matrix
       cellvalue(n-1,0)
