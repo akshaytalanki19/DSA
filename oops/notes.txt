@@ -1,0 +1,40 @@
+Object Oriented Programming: 
+   Objects:
+        - entites in the real world (which has properties)
+        - ex: pen, animal, watch
+    classes:
+        - group of entites
+        - ex: school, class
+        - attributes + functions
+        - classes always start with caps and functions with small
+
+    Encapsulation:
+        - The wrapping up if data & method under a single unit.
+        - It also implements data hidings
+    Constructor:
+        - A special method which is nvoked automatically at teh time of obj creation
+        - They have same name as class or structure
+        - They dont have return type
+        - memory allocation happens when constructor is called.
+        - types : non-parameterized, parameterized, copy constructor
+    Inheritence:
+        - When Properties & methods of base class are passed on to a derived class
+    Polymorphism:
+        - poly -> many
+        - morphism -> forms
+        - types: compile time(over loading), real time(overriding)
+        - overlading -> same method name different parameters
+    Abstract:
+        - cannot create an instance of Abstract class
+        - can have both abstract and non-abstract class methods
+    interfaces:
+        - blueprint of a class
+        - all methods are public abstract & without implementation
+        - used to acheieve total abstraction
+        - variables in the interfaces are final, public & static
+        - multiple Inheritence can be acheieved through interface
+    static:
+        - used to share same variable or method of a class
+    super:
+        - used to refer immediate parent class object.
+        
