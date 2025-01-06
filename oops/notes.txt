@@ -1,5 +1,5 @@
 Object Oriented Programming: 
-   Objects:
+    Objects:
         - entites in the real world (which has properties)
         - ex: pen, animal, watch
     classes:
